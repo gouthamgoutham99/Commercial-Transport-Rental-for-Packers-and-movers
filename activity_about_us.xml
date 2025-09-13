@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ℹ️ About Us"
+            android:textSize="24sp"
+            android:textColor="#0D47A1"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:elevation="4dp"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:layout_margin="8dp"
+            android:backgroundTint="#FFFFFF"
+            android:clipToPadding="false"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/aboutContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="META Truck Rental 🚛\n\nYour go-to solution for:\n✅ Reliable and fast service\n✅ Cost-effective truck rentals\n✅ Available banglore and chennai cities\n\nWe offer various truck types, easy online booking, and full customer support for logistics, packers, and movers businesses.\n\nWe're committed to keeping your goods moving smoothly and safely!"
+                android:textSize="18sp"
+                android:textColor="#333333"
+                android:lineSpacingExtra="8dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

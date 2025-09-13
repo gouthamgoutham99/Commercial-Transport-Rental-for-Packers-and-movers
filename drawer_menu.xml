@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawerMenu"
+    android:layout_width="280dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ECEFF1"
+    android:padding="16dp"
+    android:layout_gravity="start">
+
+    <!-- Profile -->
+    <ImageButton
+        android:id="@+id/profileButton"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:src="@drawable/ic_profile"
+        android:contentDescription="Profile"
+        android:background="?attr/selectableItemBackground"
+        android:scaleType="centerInside"
+        android:padding="12dp" />
+
+    <!-- My Bookings -->
+    <ImageButton
+        android:id="@+id/myBookingsButton"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:src="@drawable/ic_booking"
+        android:contentDescription="My Bookings"
+        android:background="?attr/selectableItemBackground"
+        android:scaleType="centerInside"
+        android:padding="12dp"
+        android:layout_marginTop="8dp" />
+
+    <!-- Contact Us -->
+    <ImageButton
+        android:id="@+id/contactUsButton"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:src="@drawable/ic_contact"
+        android:contentDescription="Contact Us"
+        android:background="?attr/selectableItemBackground"
+        android:scaleType="centerInside"
+        android:padding="12dp"
+        android:layout_marginTop="8dp" />
+
+    <!-- About Us -->
+    <ImageButton
+        android:id="@+id/aboutUsButton"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:src="@drawable/ic_about"
+        android:contentDescription="About Us"
+        android:background="?attr/selectableItemBackground"
+        android:scaleType="centerInside"
+        android:padding="12dp"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>

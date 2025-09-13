@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:id="@+id/bookingSummaryLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Back Arrow -->
+        <ImageView
+            android:id="@+id/backArrow"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:src="@drawable/arrow_back"
+            android:contentDescription="Back"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Truck Name -->
+        <TextView
+            android:id="@+id/truckName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Truck Name"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000000" />
+
+        <!-- Truck Price -->
+        <TextView
+            android:id="@+id/truckPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="₹ 15000 / KM"
+            android:textSize="20sp"
+            android:textColor="#009688"
+            android:layout_marginTop="6dp" />
+
+        <!-- Style -->
+        <TextView
+            android:id="@+id/truckStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Style: XYZ"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp" />
+
+        <!-- Type -->
+        <TextView
+            android:id="@+id/truckType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Type: Manual"
+            android:textSize="18sp" />
+
+        <!-- Color -->
+        <TextView
+            android:id="@+id/truckColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Color: White"
+            android:textSize="18sp" />
+
+        <!-- Address -->
+        <TextView
+            android:id="@+id/addressText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address: "
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp" />
+
+        <!-- Start Date -->
+        <TextView
+            android:id="@+id/startDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start Date: 17/03/2025"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp" />
+
+        <!-- Pick-up Time -->
+        <TextView
+            android:id="@+id/pickupTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pick-up Time: 11:00 AM"
+            android:textSize="18sp" />
+
+
+
+        <!-- Payment Breakdown -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Payment Breakdown"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="24dp"
+            android:textColor="#000000" />
+
+        <!-- Fare -->
+        <TextView
+            android:id="@+id/fareAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fare: ₹ 15000"
+            android:textSize="18sp"
+            android:textColor="#444444"
+            android:layout_marginTop="10dp" />
+
+        <!-- Proceed to Pay -->
+        <Button
+            android:id="@+id/proceedToPayButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:backgroundTint="#1976D2"
+            android:padding="14dp"
+            android:text="PROCEED TO PAY ₹ 15000"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <!-- UPI / Net Banking -->
+        <Button
+            android:id="@+id/payViaUpiButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pay via UPI / Net Banking (Currently not in service)"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="16dp"
+            android:padding="14dp"
+            android:backgroundTint="#43A047" />
+
+    </LinearLayout>
+</ScrollView>
